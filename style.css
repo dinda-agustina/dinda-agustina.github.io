@@ -9,7 +9,7 @@
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-    --first-color-lighter: hs(var(--hue-color), 92%, 85%);
+    --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
     --title-color: hsl(var(--hue-color), 8%, 15%);
     --text-color: hsl(var(--hue-color), 8%, 45%);
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
@@ -156,7 +156,7 @@ img {
 }
 
 .header {
-    width: 1005;
+    width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -173,7 +173,7 @@ img {
 }
 
 .nav__logo,
-.nav__toogle {
+.nav__toggle {
     color: var(--title-color);
     font-weight: var(--font-medium);
 }
@@ -182,7 +182,7 @@ img {
     color: var(--first-color);
 }
 
-.nav__toogle{
+.nav__toggle{
     font-size: 1.1rem;
     cursor: pointer;
 }
@@ -1074,7 +1074,7 @@ img {
 
     .nav__icon,
     .nav__close,
-    .nav__toogle {
+    .nav__toggle {
         display: none;
     }
 
