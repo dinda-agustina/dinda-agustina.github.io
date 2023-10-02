@@ -205,7 +205,7 @@ img {
     }
 }
 
-.nav__list {
+.nav__list.grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
@@ -498,7 +498,7 @@ img {
 }
 
 .skills__js {
-    width: 40%;
+    width: 65%;
 }
 
 .skills__react {
