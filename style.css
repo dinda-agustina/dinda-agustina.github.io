@@ -5,7 +5,7 @@
     --header-height: 3rem;
     /* ======COLOR====== */
     /* change favorite color */
-    --hue-color: 250; /* Purpel 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 398; /* Purpel 250 - Green 142 - Blue 230 - Pink 340*/
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
@@ -1022,8 +1022,10 @@ img {
         justify-self: center;
     }
 
+    .skills__container {
+        grid-template-columns: repeat(3, 2fr);
+    }
     .about__container,
-    .skills__container,
     .portfolio__content,
     .project__container,
     .contact__container,
