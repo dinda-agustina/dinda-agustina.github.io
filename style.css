@@ -5,7 +5,7 @@
     --header-height: 3rem;
     /* ======COLOR====== */
     /* change favorite color */
-    --hue-color: 398; /* Purpel 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 388; /* Purpel 250 - Green 142 - Blue 230 - Pink 340*/
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
@@ -489,6 +489,22 @@ img {
     background-color: var(--first-color);
 }
 
+.skills__science {
+    width: 80%;
+}
+
+.skills__english {
+    width: 70%;
+}
+
+.skills__math {
+    width: 65%;
+}
+
+.skills__react {
+    width: 85%;
+}
+
 .skills__html {
     width: 80%;
 }
@@ -497,35 +513,19 @@ img {
     width: 70%;
 }
 
-.skills__js {
-    width: 65%;
-}
-
-.skills__react {
-    width: 85%;
-}
-
-.skills__php {
-    width: 80%;
-}
-
-.skills__node {
-    width: 70%;
-}
-
-.skills__firebase {
+.skills__mysql {
     width: 90%;
 }
 
-.skills__python {
+.skills__sqlserver {
     width: 55px;
 }
 
-.skills__figma {
+.skills__drawing {
     width: 90%;
 }
 
-.skills__sketch {
+.skills__photography {
     width: 85%;
 }
 
