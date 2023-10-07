@@ -490,7 +490,7 @@ img {
 }
 
 .skills__science {
-    width: 80%;
+    width: 90%;
 }
 
 .skills__english {
@@ -501,8 +501,8 @@ img {
     width: 65%;
 }
 
-.skills__react {
-    width: 85%;
+.skills__bindonesia {
+    width: 80%;
 }
 
 .skills__html {
@@ -513,23 +513,27 @@ img {
     width: 70%;
 }
 
+.skills__csharp {
+    width: 65%;
+}
+
 .skills__mysql {
-    width: 90%;
+    width: 50%;
 }
 
 .skills__sqlserver {
-    width: 55px;
+    width: 60%;
 }
 
 .skills__drawing {
-    width: 90%;
-}
-
-.skills__photography {
     width: 85%;
 }
 
-.skills__photoshop {
+.skills__photography {
+    width: 70%;
+}
+
+.skills__writing {
     width: 85%;
 }
 
@@ -623,7 +627,7 @@ img {
     background-color: var(--container-color);
     padding: 3.5rem 0.5rem 1.25rem 1.5rem;
     border-radius: 0.25rem;
-    box-shadow: 1 2px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 1 2px 4px rgba(0, 0, 0, 0.505);
     transition: 0.3s;
 }
 
@@ -890,13 +894,13 @@ img {
 .footer__copy {
     font-size: var(--smaller-font-size);
     text-align: center;
-    color: var(--text-color-light);
+    color: lightgrey;
     margin-top: var(--mb-3);
 }
 
 .footer__title,
 .footer__subtitle,
-.footer__link,
+.footer__links,
 .footer__social {
     color: #fff;
 }

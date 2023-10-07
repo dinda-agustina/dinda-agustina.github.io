@@ -99,7 +99,7 @@ var swiperPortfolio = new Swiper(".portfolio__container", {
 
     navigation: {
         nextEl: ".swiper-button-next",
-        prevEL: ".swiper-button-prev",
+        prevEl: ".swiper-button-prev",
     },
     pagination: {
         el: ".swiper-pagination",
@@ -162,7 +162,7 @@ const selectedIcon = localStorage.getItem("selected-icon");
 const getCurrentTheme = () => 
     document.body.classList.contains(darkTheme) ? "dark" : "light";
 const getCurrentIcon = () =>
-    document.classList.contains(iconTheme) ? "uil-moon" : "uil-sun";
+    document.classList.contain(iconTheme) ? "uil-moon" : "uil-sun";
 
 // we validate if the user previously chose a topic
 if (selectedTheme) {
