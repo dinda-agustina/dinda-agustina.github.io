@@ -1119,11 +1119,11 @@ img {
     }
 
     .about__container {
-        column-gap: 5rem;
+        column-gap: 4rem;
     }
 
     .about__img {
-        width: 350px;
+        width: 250px;
     }
 
     .about__description {
